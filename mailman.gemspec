@@ -15,6 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Mailman::VERSION
 
-  gem.add_development_dependency('rake')
+  gem.add_runtime_dependency 'rest-client'
+  gem.add_development_dependency 'rake'
 end
 
